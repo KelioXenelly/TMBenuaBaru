@@ -101,7 +101,7 @@
                     } else {
                         echo '
                             <tr>
-                                <td colspan="7" class="text-center">Produk tidak tersedia</td>
+                                <td colspan="9" class="text-center">Produk tidak tersedia</td>
                             </tr>
                         ';
                     }
