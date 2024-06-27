@@ -62,10 +62,10 @@
                                     <td>'.$dataKategori["nama"].'</td>
                                     <td>
                                         <a href="edit-kategori.php?id='.$dataKategori['kategori_id'].'" class="btn btn-success">
-                                            <i class="fa-solid fa-pencil"></i>
+                                            <i class="fas fa-pencil-alt"></i>
                                         </a>
                                         <a href="delete-kategori.php?id='.$dataKategori['kategori_id'].'" class="delete-kategori btn btn-danger">
-                                            <i class="fa-solid fa-trash"></i>
+                                            <i class="fas fa-trash"></i>
                                         </a>
                                     </td>
                                 </tr>

@@ -90,10 +90,10 @@
                                     <td>'.ucwords($dataProduk["ketersediaan_stok"]).'</td>
                                     <td>
                                         <a href="edit-produk.php?id='.$dataProduk['produk_id'].'" class="btn btn-success">
-                                            <i class="fa-solid fa-pencil"></i>
+                                            <i class="fas fa-pencil-alt"></i>
                                         </a>
                                         <a href="delete-produk.php?id='.$dataProduk['produk_id'].'" class="delete-produk btn btn-danger">
-                                            <i class="fa-solid fa-trash"></i>
+                                            <i class="fas fa-trash"></i>
                                         </a>
                                     </td>
                                 </tr>
