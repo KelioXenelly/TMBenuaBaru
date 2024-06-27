@@ -31,12 +31,3 @@
 		</div>
 	</div>
 </nav>
-
-<script>
-	document.querySelectorAll(".nav-link").forEach((link) => {
-		if (link.href === window.location.href) {
-			link.classList.toggle("active");
-			link.setAttribute("aria-current", "page");
-		}
-	});
-</script>
