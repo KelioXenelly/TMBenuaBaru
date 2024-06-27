@@ -49,7 +49,7 @@
 
         <div class="row mt-3 mb-4">
             <div>
-                <a href="tambah-produk.php" class="btn btn-primary"><i class="fa-solid fa-plus me-2"></i>Tambah Produk</a>
+                <a href="tambah-produk.php" class="btn btn-primary"><i class="fas fa-plus me-2"></i>Tambah Produk</a>
             </div>
         </div>
         

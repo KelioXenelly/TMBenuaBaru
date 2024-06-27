@@ -39,7 +39,7 @@
 
         <div class="row mt-3">
             <div>
-                <a href="tambah-kategori.php" class="btn btn-primary"><i class="fa-solid fa-plus me-2"></i>Tambah Kategori</a>
+                <a href="tambah-kategori.php" class="btn btn-primary"><i class="fas fa-plus me-2"></i>Tambah Kategori</a>
             </div>
         </div>
         <table class="table mt-4">
