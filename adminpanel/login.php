@@ -1,5 +1,6 @@
 <?php
     session_start();
+    ob_start();
     require "../connection.php";
 ?>
 
@@ -68,7 +69,8 @@
                         if(password_verify($password, $usersData["password"])) {
                             $_SESSION["username"] = $usersData["username"];
                             $_SESSION["login"] = true;
-                            header("location: ../adminpanel");                  
+                            header("location: ../adminpanel");
+                            exit();
                         }
                         else {
                             echo '
@@ -92,6 +94,10 @@
     
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../fontawesome/js/all.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
 </body>
 </html>
+
+<?php
+    ob_end_flush();
+?>

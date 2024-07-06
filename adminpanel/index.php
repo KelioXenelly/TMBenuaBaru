@@ -39,10 +39,10 @@
             </ol>
         </nav>
 
-        <h2 class="fw-semibold fs-3">Halo <?php echo ucwords($_SESSION["username"]); ?></h2>
+        <h2 class="fw-semibold fs-3">Halo <?php echo isset($_SESSION["username"]) ? ucwords($_SESSION["username"]) : 'User'; ?></h2>
 
         <div class="row mt-3">
-            <div class="col-sm-4 mb-3 mb-sm-0">
+            <div class="col-sm-6 mb-3 mb-sm-0">
                 <div class="card bg-success text-white d-flex">
                     <div class="row px-3">
                         <div class="card-body col-6 text-center">
@@ -56,12 +56,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4 mb-3 mb-sm-0">
+            <div class="col-sm-6 mb-3 mb-sm-0">
                 <div class="card bg-danger text-white d-flex">
                     <div class="row px-3">
                         <div class="card-body col-6 text-center">
-                            <i class="fas fa-box fa-7x"></i>
-                        </div>
+                            <i class="fas fa-box fa-7x"></i></div>
                         <div class="card-body col-6 fs-5">
                             <h5 class="card-title">Produk</h5>
                             <p class="card-text"><?php echo $rowProduk; ?> Produk</p>
@@ -75,13 +74,11 @@
         <div class="mt-3">
             <?php require "footer.php" ?>
         </div>
-    </div>
-
 
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../fontawesome/js/all.min.js"></script>
     <script src="../js/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>

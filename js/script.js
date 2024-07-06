@@ -1,6 +1,4 @@
 $(document).ready(function() {
-    $('#dataTables').DataTable();
-
     $('a.delete-kategori').on('click', function(e) {
         e.preventDefault();
         var url = $(this).attr('href');
