@@ -47,7 +47,7 @@
                 <?php
                     while($data6Produk = mysqli_fetch_array($query6Produk)) {
                         echo '
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-6 col-lg-4 mb-3">
                                 <div class="card" style="height: 500px;">
                                     <img src="img/'.$data6Produk['foto'].'" class="card-img-top" alt="Foto Belum Ditambahkan" style="height: 250px;">
                                     <div class="card-body d-flex flex-column justify-content-center px-5">
