@@ -37,23 +37,27 @@ require "connection.php";
         <h2 class="mb-4">Sejarah</h2>
 
         <div class="row">
-            <div class="col-lg-6 mb-5 bg-body-secondary rounded p-3">
+            <div class="col-lg-6 mb-5">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae magni qui veritatis ipsum, id,
-                    possimus eum corrupti aliquam nam ex libero perferendis sint iste sed facere voluptatibus dolorum 
-                    facilis distinctio sunt numquam voluptatum? Minus recusandae tenetur ad corrupti velit saepe ipsam 
-                    eos accusantium reprehenderit natus facere nobis eaque debitis deleniti dolorum corporis repellendus 
-                    voluptates, dolorem voluptatum amet maxime praesentium mollitia! Ipsum dolor eveniet ea dicta rerum 
-                    hic illo? Architecto, voluptatibus minima ratione quisquam voluptatum, aspernatur esse accusamus cum 
-                    nemo rem libero soluta repudiandae neque nihil modi laudantium officiis. Necessitatibus officia facilis 
-                    illo veniam incidunt quis, mollitia dolore totam veritatis earum? Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Id cum quia unde architecto quos et doloribus dolorum atque asperiores quam!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium inventore nemo sequi, aliquid 
-                    velit nesciunt laboriosam minus ratione natus a.
+                    Toko Mas Benua Baru memiliki sejarah panjang yang dimulai pada tahun 1983 di kota Singkawang. 
+                    Pendiri toko ini mengawali karirnya sebagai tukang emas dan mengabdikan diri selama 11 tahun di sana. 
+                    Pada tahun 1994, ia memutuskan untuk pindah ke Pontianak demi mencari peluang yang lebih baik. 
+                    Setelah menemukan ruko yang cocok, toko ini beroperasi di lokasi tersebut selama 2 tahun.
+                </p>
+                <p>
+                    Namun, karena pemilik ruko tidak lagi ingin menyewakan tempatnya, toko ini harus berpindah lokasi. 
+                    Pada tahun 1996, Toko Mas Benua Baru menemukan tempat baru di Sungai Jawi. Setahun kemudian, pada tahun 1997, 
+                    toko ini akhirnya menetap di Parit Baru dan terus beroperasi hingga saat ini, tahun 2024.
+                </p>
+                <p>
+                    Kami bangga dengan warisan kami dan berkomitmen untuk terus menyediakan perhiasan emas berkualitas tinggi serta 
+                    layanan terbaik kepada pelanggan kami. Toko Mas Benua Baru dikenal karena dedikasinya dalam menyediakan perhiasan 
+                    emas berkualitas tinggi dan layanan pelanggan yang ramah dan profesional. Kami berkomitmen untuk terus melayani 
+                    pelanggan kami dengan produk dan layanan terbaik.
                 </p>
             </div>
             <div class="col-lg-6 text-center">
-                <img src="img/BenuaBaru_Logo.png" alt="" style="height: auto; width: 60%; border-radius: 50%;" >
+                <img src="img/BenuaBaru_Logo.png" alt="" style="height: auto; width: 60%; border-radius: 50%;">
             </div>
         </div>
     </div>
@@ -63,7 +67,7 @@ require "connection.php";
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="fontawesome/js/all.min.js"></script>
-    
+
 </body>
 
 </html>

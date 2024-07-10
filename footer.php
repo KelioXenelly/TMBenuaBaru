@@ -16,20 +16,20 @@
     <div class="container">
         <h5 class="text-center mb-5 fs-3">Hubungi Kami</h5>
         <div class="row justify-content-center text-center">
-            <div class="col-md-4 d-flex justify-content-center mb-2">
+            <div class="col-md-4 d-flex justify-content-center my-4">
                 <a href="https://www.instagram.com/tokomas_benuabaru/"
                 target="_blank" class="text-decoration-none d-flex flex-wrap">
                     <i class="fab fa-instagram fs-1 w-100"></i>
                     <span class="w-100 mt-3 fs-5">@tokomas_benuabaru</span>
                 </a>
             </div>
-            <div class="col-md-4 d-flex justify-content-center mb-2">
+            <div class="col-md-4 d-flex justify-content-center my-4">
                 <a href="https://maps.app.goo.gl/vFouwnmjyb44A7nCA" target="_blank" class="text-decoration-none d-flex flex-wrap">
                     <i class="fas fa-map-marker-alt fs-1 w-100"></i>
                     <span class="w-100 mt-sm-3 mt-md-5 fs-5">Jl. Adisucipto No.01 Sui. Raya KM. 7,5 Dpn Bank Lokadana</span>
                 </a>
             </div>
-            <div class="col-md-4 d-flex justify-content-center mb-2">
+            <div class="col-md-4 d-flex justify-content-center my-4">
                 <a href="https://wa.me/6289699926327?contact=tokomas_benuabaru" target="_blank" class="text-decoration-none d-flex flex-wrap">
                     <i class="fab fa-whatsapp fs-1 w-100"></i>
                     <span class="w-100 mt-3 fs-5">+62 896-9992-6327</span>
